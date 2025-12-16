@@ -4461,7 +4461,19 @@
 		(layer "Edge.Cuts")
 		(uuid "f5791694-3f19-450b-91f3-5908d175ccc5")
 	)
-	(gr_text "-"
+	(gr_text "Made by Johnan Luca\nLast mod: 16/12/2025\n"
+		(at 123.5 95 0)
+		(layer "F.SilkS")
+		(uuid "038079dc-a76b-42d9-8767-285671c4be0c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "+\n"
 		(at 132 104 0)
 		(layer "F.SilkS")
 		(uuid "6ac7903b-593d-48f1-9750-00e04490000a")
@@ -4470,6 +4482,18 @@
 				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "King of the castle\n	King of the castle"
+		(at 150 103 90)
+		(layer "F.SilkS")
+		(uuid "cc5449b3-a3ef-4a22-8529-98152c53682d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -4487,8 +4511,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+"
-		(at 132 112.5 0)
+	(gr_text "-\n"
+		(at 133 112.5 90)
 		(layer "F.SilkS")
 		(uuid "e5dd52b0-6fa3-45c9-8710-65a36b325af6")
 		(effects
